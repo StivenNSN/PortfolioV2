@@ -1,6 +1,14 @@
 export default function CardsPortafolio(){
     const portafolioData = [
         {
+            imgSrc: "../assets/img/PortfolioImg/portfolio-5.jpg",
+            titulo: "Portfolio - V2",
+            skills: [],
+            descripcion: "Portfolio Personal - V2.",
+            demoURL: "https://bssanchezf31.netlify.app",
+            repoURL: "https://github.com/StivenNSN/PortfolioV2"
+        },
+        {
             imgSrc: "../assets/img/PortfolioImg/portfolio-4.jpg",
             titulo: "Mundo Libros - V2",
             skills: [],
@@ -32,14 +40,7 @@ export default function CardsPortafolio(){
             demoURL: "https://calculadorappss.netlify.app",
             repoURL: "https://github.com/StivenNSN/CalculadoraApp"
         },
-        {
-            imgSrc: "../assets/img/PortfolioImg/SASS.webp",
-            titulo: "Eco Store",
-            skills: [],
-            descripcion: "Made with sass for the,Sass fundamentals course",
-            demoURL: "https://sofidevo.github.io/eco-store-sass/",
-            repoURL: "https://github.com/SofiDevO/eco-store-sass"
-        },
+
     ];
     
     const skillIcons = {
