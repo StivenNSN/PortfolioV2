@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+    <!-- canonical url -->
+    <link rel="canonical" href="https://itssofi.dev/">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="SofiDev Frontend">
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#160036" />
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="#2e006e" />
+
+    <title>Stiven Sanchez</title>
+    <link rel="shortcut icon" href="./assets/img/2.jpg" type="ima2ge/x-icon">
+
+    <!-- HTML Meta Tags -->
+    <title>Stiven-Web</title>
+    <meta name="description" content="Frontend Developer">
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Fira+Code:wght@400;600&display=swap" rel="stylesheet">
+
+     <!-- css librerias/ cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.2.1/hamburgers.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+        integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+
+
+    <!-- CSS ESTYLES -->
+    <link rel="stylesheet" href="./assets/Styles/global.css">
+    <link rel="stylesheet" href="./assets/Styles/header/header.css">
+    <link rel="stylesheet" href="./assets/Styles/elements/toogleDark.css">
+    <link rel="stylesheet" href="./assets/Styles/elements/toTop.css">
+    <link rel="stylesheet" href="./assets/Styles/hero/hero.css">
+    <link rel="stylesheet" href="./assets/Styles/hero/social-icon.css">
+    <link rel="stylesheet" href="./assets/Styles/Dividers/divider.css">
+    <link rel="stylesheet" href="./assets/Styles/Dividers/divierBlack.css">
+    <link rel="stylesheet" href="./assets/Styles/Dividers/dividerSkillsTools.css">
+    <link rel="stylesheet" href="./assets/Styles/Dividers/divider-tools.css">
+    <link rel="stylesheet" href="./assets/Styles/elements/cajaTerminal.css">
+    <link rel="stylesheet" href="./assets/Styles/button.css">
+    <link rel="stylesheet" href="./assets/Styles/skills.css">
+    <link rel="stylesheet" href="./assets/Styles/tools.css">
+    <link rel="stylesheet" href="./assets/Styles/about.css">
+    <link rel="stylesheet" href="./assets/Styles/portfolio/portfolio.css">
+    <link rel="stylesheet" href="./assets/Styles/formulario.css">
+    <link rel="stylesheet" href="./assets/Styles/youtube-channel.css">
+    <link rel="stylesheet" href="./assets/Styles/footer.css">
+    <!-- dark mode -->
+    <link rel="stylesheet" href="./assets/Styles/dark-mode/darkmode.css">
+    <link rel="stylesheet" href="./assets/Styles/dark-mode/darkmode-bg.css">
+    <link rel="stylesheet" href="./assets/Styles/dark-mode/short-circuit.css">
+</head>
+
+<body>
+    <!--Cabezera-->
+    <header class="header" id="header">
+
+        <a class="header__link " href="/index.html">
+            <p class="header__logo logo__dark" id="logo"><span class="span__dark" id="span">Inicio</span></p>
+        </a>
+
+        <!-- Menu  -->
+        <nav class="menu__nav panel__styles panel" id="panel">
+            <ul class="menu__ul">
+                <img class="menu__avatar" src="./assets/img/avatar_pink.webp" alt="">
+                <li class="menu__list"><a class="menu__link menu__hamburger-link" href="#skills">Skills</a></li>
+                <li class="menu__list"><a class="menu__link menu__hamburger-link" href="#aboutMe">Sobre Mí</a></li>
+                <li class="menu__list"><a class="menu__link menu__hamburger-link" href="#portafolio">Portfolio</a></li>
+                <li class="menu__list"><a class="menu__link menu__hamburger-link" href="#formulario">Contacto</a></li>
+            </ul>
+    </header>
+    <!-- fin de Cabezera-->
+
+    <div class="toogle-dark__container">
+        <i class="bi bi-lightning-charge toogle__rayo" data-toogle></i>
+    </div>
+
+    <!-- menu movil (hamburguesa) -->
+    <button class="panel__btn hamburger hamburger--emphatic" type="button" aria-label="menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner" id="hamburguesa"></span>
+        </span>
+    </button>
+
+    <!--Menu Flotante-->
+    <div class="menu__flotante">
+        <div class="icon__top-container">
+            <div class="to__top" data-menu="float">
+                <a class="to__top-link" href="#"> </a>
+                <i class="bi bi-arrow-up-circle"></i>
+            </div>
+        </div>
+    </div>
+    
+    <!-- MAIN -->
+    <main>
+
+        <!-- seccion hero  -->
+        <section class="hero" id="hero">
+            <div class="hero__contenedor">
+                <div class="hero__saludo">
+                    <h1 class="hero__titulo" id="titulo-saludo" data-section="hero" data-value="heroTitulo"><span class="flicker-in-1 span__dark">Stiven Sanchez</span> </h1>
+                    <h2 class="hero__subtitulo" id="subtitulo" data-section="hero" data-value="heroSubtitulo"> ≥ Ingeniero de Sistemas</h2>
+                </div>
+                <div class="side__container">
+                    <div class="side__profile" id="profile-pic">
+                        <img class="side__img img__ligth" src="./assets/img/Avatar_blue.png"
+                            alt="">
+                        <img class="side__img img__dark" src="./assets/img/avatar-black.png"
+                            alt="">
+                        <img class="side__img img__damage" src="./assets/img/avatar_orange.png"
+                            alt="">
+                    </div>
+
+                    <div class="social">
+                        <a class="social__link github icono__dark" href="https://github.com/StivenNSN/" target="_blank"
+                            rel="nofollow noreferrer noopener">
+                            <img class="social__icon" title="Da click para ingresar a GIT" src="./assets/svg/github-light.svg" alt="GitHub icon">
+                        </a>
+
+                        <a class="social__link icon-insta icono__dark" href="https://www.instagram.com/stiven_sanchez_ns/" target="_blank"
+                            rel="nofollow noreferrer noopener">
+                            <img class="social__icon" title="Da click para ingresar a Instagram" src="./assets/svg/icon-insta.svg" alt="icon-insta icon">
+                        </a>
+
+                        <a class="social__link linkedin icono__dark" href="https://www.linkedin.com/in/stivensanchez/"
+                            target="_blank" rel="nofollow noreferrer noopener">
+                            <img class="social__icon" title="Da click para ingresar a Linkedin"  src="./assets/svg/linkedin.svg" alt="LinkedIn icon">
+                        </a>
+
+                        <a class="social__link facebook icono__dark" href="https://www.facebook.com/stiven.sanchez.75" target="_blank"
+                            rel="nofollow noreferrer noopener">
+                            <img class="social__icon" title="Da click para ingresar a Facebook" src="./assets/svg/facebook.svg" alt="facebook icon">
+                        </a>
+                        <a class="social__link youtube icono__dark" href="https://www.youtube.com/@StivenNSN" target="_blank"
+                            rel="nofollow noreferrer noopener">
+                            <img class="social__icon" title="Da click para ingresar a Youtube" src="./assets/svg/youtube-solid.svg" alt="Youtube icon">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Fin Seccion hero-->
+
+        <!-- Divider -->
+        <div class="wrapper">
+            <div class="custom-shape-divider-bottom-1685513857">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                    preserveAspectRatio="none">
+                    <path
+                        d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
+                        id="divider1" class="shape-fill"></path>
+                </svg>
+            </div>
+        </div>
+        <!-- fin de  Divider -->
+
+
+        <!-- Skills - Sobre Mí -->
+        <section class="skills" id="skills">
+            <h2 class="titulo titulo__dark">Skills</h2>
+
+            <div class="skills__container">
+                <div class=" caja__cristal caja__dark ">
+                    <div class="terminal_toolbar">
+                        <div class="butt">
+                            <button class="btn btn__red btn-color"></button>
+                            <button class="btn btn__yellow"></button>
+                            <button class="btn btn__green"></button>
+                        </div>
+                        <p class="user">Perfil Profesional: </p>
+                    </div>
+
+                    <!-- Info de Sobre Mí -->
+                    <div class="terminal__content ">
+                        <p class="terminal__content"> <span class="terminal__content"> ≥ Ingeniero de Sistemas con más de 9 años de experiencia laboral</span> en roles clave como Coordinador de TI, Ingeniero de Soporte Técnico, Ingeniero de Sistemas, Ingeniero de Mesa de Ayuda y Analista de Soporte Técnico.</p>
+                        <p class="terminal__content"> <span class="terminal__content"> ≥ Trayectoria profesional de más 6 años</span> dedicadas al perfeccionamiento y aplicación de mis habilidades en entornos dinámicos y desafiantes a nivel empresarial.</p>
+                        <p class="terminal__content"> ≥ Mis conocimientos y experiencia en Infraestructura incluyen dominio en: <span class="terminal__content">AWS, Azure, Backups, OWA 365, Sharepoint, Windows Server</span> respaldadas por una pasión constante por mantenerme actualizado en las últimas tendencias y tecnologías de la industria.</p>
+                        <p class="terminal__content"> ≥ En el ámbito de la programación poseo conocimientos en <span class="terminal__content">HTML5, CSS, JS, Angular y GIT</span> Mi dedicación continua a la mejora y aprendizaje constante en este campo me permite mantenerme al tanto de los avances y tendencias emergentes.</p>
+                        
+                        <!-- Descargar CV -->
+                        <div class="skills__descargar">
+                            <a class="link__boton boton titulo__dark  span" href="./assets/documents/CV_Stiven_Sanchez_2023.pdf" target="_blank"> Descargar CV <img class="skills__descargar__icono icono__boton" src="./assets/svg/generate-pdf.svg" alt="download button">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SECCION SKILLS -->
+                <div class="skills__cards-container">
+                    <div class="skills__cajas">
+                        <!-- Conteido de cards -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="wraper__skills">
+            <div class="custom-shape-divider-top-1697134839">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                    preserveAspectRatio="none">
+                    <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+                </svg>
+            </div>
+        </div>
+
+        <!-- Herramientas -->
+        <section class="tools">
+            <h2 class="tools__titulo titulo__dark">Tools</h2>
+            <div class="tools__caja__slider">
+                <div class="slider">
+                    <div class="tools__cajas">
+
+                        <div class="tools__grupo">
+                            <div class="tools__caja caja__dark">
+                                <img class="tools__icono tool__dark" src="./assets/svg/angular.svg" alt="">
+                            </div>
+                            <span class="tools__descripcion titulo__dark">Angular</span>
+                        </div>
+
+                        <div class="tools__grupo">
+                            <div class="tools__caja caja__dark">
+                                <img class="tools__icono terminal" src="./assets/svg/aws.svg" alt="">
+                            </div>
+                            <span class="tools__descripcion titulo__dark">AWS</span>
+                        </div>
+                      
+                        <div class="tools__grupo">
+                            <div class="tools__caja caja__dark">
+                                <img class="tools__icono tool__dark " src="./assets/svg/azure.svg" alt="">
+                            </div>
+                            <span class="tools__descripcion titulo__dark">Azure</span>
+                        </div>
+
+                        <div class="tools__grupo">
+                            <div class="tools__caja caja__dark">
+                                <img class="tools__icono tool__dark" src="./assets/svg/git.svg" alt="">
+                            </div>
+                            <span class="tools__descripcion titulo__dark">Git</span>
+                        </div>
+
+                        <div class="tools__grupo">
+                            <div class="tools__caja caja__dark">
+                                <img class="tools__icono tool__dark" src="./assets/svg/file-type-html.svg" alt="">
+                            </div>
+                            <span class="tools__descripcion titulo__dark">HTML5</span>
+                        </div>
+
+                        <div class="tools__grupo">
+                            <div class="tools__caja caja__dark">
+                                <img class="tools__icono tool__dark" src="./assets/svg/css-color.svg" alt="">
+                            </div>
+                            <span class="tools__descripcion titulo__dark">CSS</span>
+                        </div>
+
+                        <div class="tools__grupo">
+                            <div class="tools__caja caja__dark">
+                                <img class="tools__icono tool__dark" src="./assets/svg/javascript-color.svg" alt="">
+                            </div>
+                            <span class="tools__descripcion titulo__dark">JavaScript</span>
+                        </div>
+
+                        <div class="tools__grupo">
+                            <div class="tools__caja caja__dark">
+                                <img class="tools__icono tool__dark" src="./assets/svg/npm-wordmark.svg" alt="">
+                            </div>
+                            <span class="tools__descripcion titulo__dark">NPM</span>
+                        </div>
+
+                        <div class="tools__grupo">
+                            <div class="tools__caja caja__dark">
+                                <img class="tools__icono tool__dark" src="./assets/svg/owa.svg" alt="">
+                            </div>
+                            <span class="tools__descripcion titulo__dark">Office 365</span>
+                        </div>
+
+                        <div class="tools__grupo">
+                            <div class="tools__caja caja__dark">
+                                <img class="tools__icono tool__dark" src="./assets/svg/sharepoint.svg" alt="">
+                            </div>
+                            <span class="tools__descripcion titulo__dark">SharePoint</span>
+                        </div>
+
+                        <div class="tools__grupo">
+                            <div class="tools__caja caja__dark">
+                                <img class="tools__icono tool__dark" src="./assets/svg/windowsS.svg" alt="">
+                            </div>
+                            <span class="tools__descripcion titulo__dark">Windows Server</span>
+                        </div>
+
+                        <div class="tools__grupo">
+                            <div class="tools__caja caja__dark">
+                                <img class="tools__icono tool__dark" src="./assets/svg/terminal.svg" alt="">
+                            </div>
+                            <span class="tools__descripcion titulo__dark">Terminal</span>
+                        </div>
+
+                        <div class="tools__grupo">
+                            <div class="tools__caja caja__dark">
+                                <img class="tools__icono tool__dark" src="./assets/svg/ubuntu.svg" alt="">
+                            </div>
+                            <span class="tools__descripcion titulo__dark">Ubuntu</span>
+                        </div>
+
+                        <div class="tools__grupo">
+                            <div class="tools__caja caja__dark">
+                                <img class="tools__icono tool__dark" src="./assets/svg/vscode.svg" alt="">
+                            </div>
+                            <span class="tools__descripcion titulo__dark">Visual Studio Code</span>
+                        </div>
+
+                        <div class="tools__grupo">
+                            <div class="tools__caja caja__dark">
+                                <img class="tools__icono tool__dark" src="./assets/svg/xampp.svg" alt="">
+                            </div>
+                            <span class="tools__descripcion titulo__dark">XAMPP</span>
+                        </div>
+
+                        <div class="tools__grupo">
+                            <div class="tools__caja caja__dark">
+                                <img class="tools__icono tool__dark" src="./assets/svg/google-analytics.svg" alt="">
+                            </div>
+                            <span class="tools__descripcion titulo__dark">Google Analytics</span>
+                        </div>
+
+                        <div class="tools__grupo">
+                            <div class="tools__caja caja__dark">
+                                <img class="tools__icono tool__dark" src="./assets/svg/photoshop.svg" alt="">
+                            </div>
+                            <span class="tools__descripcion titulo__dark">photoshop</span>
+                        </div>
+                        
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="wraper__tools">
+            <div class="custom-shape-divider-top-1699780157">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+                </svg>
+            </div>
+        </div>
+
+        <!-- Acerca de Mi -->
+        <section class="about" id="aboutMe">
+            <h2 class="titulo titulo__dark" id="aboutDeTitulo"> Información Personal </h2>
+            <div class="about__container">
+                <div class="card__about ">
+                    <div class="card-photo">
+                        <img class="about__img--src" src="./assets/img/Yo1.jpg" alt="">
+                    </div>
+                    <div class="card-title">
+                        <span>Ingeniero de Sistemas</span>
+                    </div>
+                    <div class="card-socials">
+                        <a class=" card-socials-btn icon" href="https://www.facebook.com/stiven.sanchez.75" target="_blank" rel="nofollow noreferrer noopener">
+                            <img class="about__icons" title="Mi perfil de Facebook" src="./assets/svg/Facebook-BN.svg" alt=""
+                                data-name="Layer 21" id="Layer_21">
+                        </a>
+
+                        <a class=" card-socials-btn icon" href="https://www.instagram.com/stiven_sanchez_ns/" target="_blank" rel="nofollow noreferrer noopener">
+                            <img class="about__icons" title="Mi perfil de Instagram" src="./assets/svg/Insta-BN.svg" alt=""
+                                data-name="Layer 21" id="Layer_21">
+                        </a>
+
+                        <a class=" card-socials-btn icon" href="https://twitter.com/StivenNSN31/" target="_blank" rel="nofollow noreferrer noopener">
+                            <img class="about__icons" title="Mi perfil de Twitter" src="./assets/svg/twitter3.svg" alt=""
+                                data-name="Layer 21" id="Layer_21">
+                        </a>
+
+                    </div>
+                </div>
+
+
+                <div class="about__caja caja__cristal caja__dark" ">
+                    <div class=" terminal_toolbar">
+                    <div class="butt">
+                        <button class="btn btn__red btn-color"></button>
+                        <button class="btn btn__yellow"></button>
+                        <button class="btn btn__green"></button>
+                    </div>
+                    <p class="user">Sobre Mí: ~</p>
+                </div>
+                <div class="terminal__content" id="textos">
+                    <h3 class="terminal__content">
+                        ≥ Brandon Stivens Sanchez F.
+                    </h3>
+                    <p class="terminal__content contenido"> ≥ Motero de corazón, vivo la ciudad de Bogotá-Colombia, tengo 29 años y tengo una hija perruna de 2 años. </p>
+                    <h3 class="terminal__content contenido"> ≥ ¿Qué me gusta hacer? <span class="about__span span__dark"></span>
+                    </h3> <p class="terminal__content contenido"> ≥ Me encanta Leer, Dibujar, Cocinar, jugar (Soy Gamer de PC), salir de viaje y poder conocer nuevos lugares, entre otras cosas.</p>
+                    <h3 class="terminal__content contenido"> ≥ ¿Qué aprendo actualmente? <span class="about__span span__dark"></span></h3>
+                    <p class="terminal__content contenido"> ≥ Actualmente en mi tiempo libre estoy aprendiendo a Tatuar, aunque es dificil voy a un buen ritmo (puedes ver mis practicas en instagram).</p>
+                    <p class="terminal__content contenido"> ≥ Por otro lado, estoy aprendiendo más sobre este mundo que es la programación, poco a poco pero de forma segura y constante seguiré aprendiendo y mejorando mis conocimientos.</p>
+                </div>
+
+                <!--Enviar Correo Gmail-->
+                <div class="about__contactar">
+                    <a class="link__boton boton titulo__dark  span" href="mailto: bssanchezf31@gmail.com" target="_blank"
+                        rel="nofollow noreferrer noopener">Enviame un Correo
+                        <img class="contactar__boton__icono icono__boton " src="./assets/svg/mail (1).svg"
+                            alt="mail icon">
+                    </a>
+                </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Portafolio -->
+        <section class="portafolio " id="portafolio">
+            <h2 class="titulo titulo__dark">Portfolio</h2>
+            <div class="portafolio__contenedor" data-card>
+                <!-- Aquí se insertarán las tarjetas generadas dinámicamente -->
+            </div>
+        </section>
+
+        <!-- Seccion Youtube -->
+        <section id="ytchannel" class="ytchannel">
+            <h2 class="titulo titulo__dark ytchannel__titulo">Suscribe to my <span
+                    class="ytchannel__title-red">Youtube</span> Channel
+                <img class="logo__yt" src="./assets/svg/youtube-solid.svg" alt="">
+            </h2>
+            <div class="ytchannel__caja">
+                <div class="caja__cristal caja__dark" ">
+                        <div class=" terminal_toolbar">
+                    <div class="butt">
+                        <button class="btn btn__red btn-color"></button>
+                        <button class="btn btn__yellow"></button>
+                        <button class="btn btn__green"></button>
+                    </div>
+                    <p class="user">sofidev@admin: ~</p>
+                </div>
+                <div class="terminal__content" id="textos">
+
+                    <p class="terminal__content contenido">
+                        <span class="span__dark"> ≥ I think that the best way to learn and master something, is to teach
+                            others.</span>
+                    </p>
+
+                    <p class="terminal__content contenido">
+                        ≥ "That is the main reason why I decided to start this channel. However, another reason is the
+                        ability to help others with problems I had at some point and couldn't find a solution to ❤️.
+                    </p>
+                    <span class="span__dark">
+                        ≥ In this way, I feel that I am contributing something to my community: The Developers
+                        community.
+                    </span>
+                </div>
+            </div>
+            <div class="vid__container">
+                <h2 class="vid__titulo"> ≥ My latest Video ❤️</h2>
+                <iframe class="latestVideoEmbed" vnum='0' width="600" height="340" frameborder="0" allowfullscreen
+                    controls="1"></iframe>
+            </div>
+
+            </div>
+        </section>
+
+        <!-- Divider -->
+        <div class="wrapper__black">
+            <div class="custom-shape-divider-bottom-1693539436">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                    preserveAspectRatio="none">
+                    <path
+                        d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+                        class="shape-fill"></path>
+                </svg>
+            </div>
+        </div>
+        <section class="formulario" id="formulario">
+            <h2 class="titulo titulo__dark">Contact</h2>
+            <div class="form__caja">
+                <div class="caja__cristal caja__dark" ">
+                    <div class=" terminal_toolbar">
+                    <div class="butt">
+                        <button class="btn btn__red btn-color"></button>
+                        <button class="btn btn__yellow"></button>
+                        <button class="btn btn__green"></button>
+                    </div>
+                    <p class="user">sofidev@admin: ~</p>
+                </div>
+                <div class="form__content">
+                    <form action="https://formsubmit.co/contact@itssofi.dev" method="POST" class="formulario__contacto">
+                        <div class="input-container ">\
+                            <label class="titulo__dark" for="name">Name</label>
+                            <input class="input text__boxes" id="name" type="text" name="name" placeholder="Your name"
+                                title="Only letters and blank spaces are accepted" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$"
+                                required data-type="nombre">
+                            <span class="contact-form-span none" data-span="error">This field is mandatory</span>
+                        </div>
+
+                        <div class="input-container formulario__inputs">
+                            <label class="titulo__dark" for="email">Email</label>
+                            <input type="email" name="email" id="email" class="input" placeholder="Email"
+                                title="Invalid email" required data-type="email"
+                                pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$">
+                            <span class="contact-form-span none" data-span="error"> This field is mandatory</span>
+                        </div>
+                        <div class="input-container formulario__inputs ">
+                            <label class="text titulo__dark" for="mensaje">Message</label>
+                            <textarea class="text__boxes" id="mensaje" name="message" cols="50" rows="7"
+                                data-pattern="^.{1,255}$" data-type="mensaje" placeholder="Your message" required
+                                title="Message cannot exceed 255 characters"></textarea>
+                            <span class="contact-form-span none" data-span="error">This field is mandatory</span>
+                        </div>
+                        <input type="submit" class="boton  link__boton titulo__dark">
+                    </form>
+                </div>
+            </div>
+            <img class="form__img" src="./assets/img/IA_coca.webp" alt="IA image of a girl with a soda">
+            </div>
+        </section>
+        <div class="background">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="foooter__cajas">
+                <a class="footer__link " href="/index.html">
+                    <p class="footer__logo logo__dark" id="logo">Sofi<span class="span__dark" id="span"> Dev</span></p>
+                </a>
+            </div>
+            <div class="foooter__cajas">
+                <ul class="footer__caja__links">
+                    <li class="footer__links"><a href="https://blog.itssofi.dev/" class="footer__link"
+                            target="_blank">Blog</a></li>
+                    <li class="footer__links"><a href="https://www.youtube.com/channel/UC36_js-krsAHAEAWpEDhHtw"
+                            class="footer__link" target="_blank" rel="nofollow noreferrer noopener"
+                            data-section="footer" data-value="cursosYoutube">Youtube channel</a></li>
+                    <li class="footer__links"><a href="https://platzi.com/p/SofiDev/" class="footer__link"
+                            target="_blank" rel="nofollow noreferrer noopener" data-section="footer"
+                            data-value="cursosPlatzi">My courses at Platzi</a></li>
+                    <li class="footer__links"><a href="https://app.aluracursos.com/emprega-one/profile/sofidev"
+                            class="footer__link" target="_blank" rel="nofollow noreferrer noopener"
+                            data-section="footer" data-value="cursosAlura">My courses at Alura</a></li>
+                </ul>
+            </div>
+            <div class="foooter__cajas">
+                <ul class="footer__caja__iconos">
+                    <li class="footer__iconos__lista ">
+                        <a href="mailto: contact@itssofi.dev" rel="nofollow noreferrer noopener">
+                            <img class="footer__iconos mail__footer icono__dark" src="./assets/svg/mail (1).svg"
+                                alt="mail icon">
+                        </a>
+                    </li>
+                    <li class="footer__iconos__lista ">
+                        <a href="https://www.linkedin.com/in/sofidev/" target="_blank"
+                            rel="nofollow noreferrer noopener">
+                            <img class="footer__iconos linkedin__footer icono__dark" src="./assets/svg/linkedin.svg"
+                                alt="Linkedin icon">
+                        </a>
+                    </li>
+                    <li class="footer__iconos__lista ">
+                        <a href="https://github.com/SofiDevO" target="_blank" rel="nofollow noreferrer noopener">
+                            <img class="footer__iconos  icono__dark" src="./assets/svg/github-light.svg"
+                                alt="github icon">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="./modules.js" defer type="module"></script>
+
+</html>
