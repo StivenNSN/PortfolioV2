@@ -205,16 +205,6 @@
     background-color: rgb(26, 26, 26);
 }
 
-/* Youtube section */
-.short-circuit .ytchannel{
-    overflow: hidden;
-}
-.short-circuit .ytchannel__titulo{
-    z-index: 20;
-
-}
-
-
 /* Form section */
 .short-circuit .form__img{
     filter: invert();

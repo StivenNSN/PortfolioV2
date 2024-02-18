@@ -12,7 +12,7 @@ export default function CardsPortafolio(){
             imgSrc: "../assets/img/PortfolioImg/portfolio-4.jpg",
             titulo: "Mundo Libros - V2",
             skills: [],
-            descripcion: "Una mejora que estoy realizando a mi proyecto personal(está en construcción)",
+            descripcion: "Mejora que estoy realizando a mi proyecto personal de libros - (está en construcción)",
             demoURL: "https://librosv2html.netlify.app/fantasia",
             repoURL: "https://github.com/StivenNSN/LibrosHTMLV2"
         },
