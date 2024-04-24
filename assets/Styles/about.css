@@ -182,17 +182,17 @@
    
     .card__about {
 	    overflow: hidden;
-		width: 30rem;
+		width: 42rem;
 		height: 50rem;
     }
 	.card-photo{
 		transform: scale(0.3) translate(226px, 1055px);
 		margin-left: -134px;
-		margin-top: -427px;
+		margin-top: -340px;
 	}
     .about__img--src {
-        width: 86rem;
-        border-radius: 10%;
+        width: 120rem;
+        border-radius: 20%;
     }
 	.about__titulo {
 		display: flex;
@@ -240,11 +240,11 @@
         width: 100%;
         padding: 0 0px;
         min-width: auto;
-        max-width: 749px;
+        max-width: 900px;
 	}
 	.about__contactar {
 		display: flex;
-		justify-content: flex-end;
+		justify-content: flex-center;
 		margin-top: 15px;
 		width: 69%;
 	}
