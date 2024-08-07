@@ -28,7 +28,6 @@
     background: rgb(0, 0, 0);
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
     backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
     border-radius: 17px;
     border: 1px solid rgba(255, 255, 255, 0.18);
 }
@@ -50,14 +49,12 @@
 .card-photo {
     transform: scale(0.3) translate(226px, 747px);
     margin-left: -134px;
-    margin-top: -348px;
+    margin-top: -420px;
 }
 .about__img--src {
     width: 84rem;
     border-radius: 10%;
 }
-
-
 
 .card-socials {
 	display: flex;
@@ -175,15 +172,15 @@
 	.card-title {
     text-align: center;
     color: var(--main-color);
-    font-size: 2.5rem;
+    font-size: 8.5rem;
     font-weight: 700;
-    margin-top: 5rem;
+    margin-top: -10rem;
   }
    
     .card__about {
 	    overflow: hidden;
-		width: 42rem;
-		height: 50rem;
+		width: 36rem;
+		height: 48rem;
     }
 	.card-photo{
 		transform: scale(0.3) translate(226px, 1055px);
@@ -191,8 +188,8 @@
 		margin-top: -340px;
 	}
     .about__img--src {
-        width: 120rem;
-        border-radius: 20%;
+        width: 86rem;
+        border-radius: 10%;
     }
 	.about__titulo {
 		display: flex;

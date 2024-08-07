@@ -38,18 +38,6 @@
 	transform-origin: 19vw -3vh;
 	box-shadow: -44vmin 0 6.097023496756592vmin currentColor;
 }
-.dark-mode .background span:nth-child(1) {
-	background-image: url("../../svg/aws.svg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	top: 2%;
-	left: 4%;
-	animation-duration: 150s;
-	animation-delay: -132s;
-	transform-origin: 3vw 24vh;
-	box-shadow: 44vmin 0 6.3067763698871095vmin currentColor;
-}
 .dark-mode .background span:nth-child(2) {
 	background-image: url("../../svg/azure.svg");
 	background-repeat: no-repeat;
@@ -61,15 +49,6 @@
 	animation-delay: -55s;
 	transform-origin: -17vw -3vh;
 	box-shadow: -44vmin 0 6.067807537859071vmin currentColor;
-}
-.dark-mode .background span:nth-child(3) {
-	color: var(--yellow-terminal);
-	top: 24%;
-	left: 6%;
-	animation-duration: 103s;
-	animation-delay: -177s;
-	transform-origin: -13vw 16vh;
-	box-shadow: 44vmin 0 5.990559767032023vmin currentColor;
 }
 .dark-mode .background span:nth-child(4) {
 	background-image: url("../../svg/backup.svg");
@@ -118,15 +97,6 @@
 	animation-delay: -83s;
 	transform-origin: -21vw 19vh;
 	box-shadow: 44vmin 0 5.504111027962081vmin currentColor;
-}
-.dark-mode .background span:nth-child(8) {
-	color: #340494;
-	top: 10%;
-	left: 21%;
-	animation-duration: 203s;
-	animation-delay: -61s;
-	transform-origin: -11vw -13vh;
-	box-shadow: 44vmin 0 6.441283887845018vmin currentColor;
 }
 .dark-mode .background span:nth-child(9) {
 	background-image: url("../../svg/javascript-color.svg");
@@ -212,15 +182,6 @@
 	transform-origin: -11vw -10vh;
 	box-shadow: 44vmin 0 6.1765324638286065vmin currentColor;
 }
-.dark-mode .background span:nth-child(16) {
-	color: var(--purple);
-	top: 32%;
-	left: 71%;
-	animation-duration: 128s;
-	animation-delay: -84s;
-	transform-origin: -11vw -10vh;
-	box-shadow: 44vmin 0 6.1765324638286065vmin currentColor;
-}
 .dark-mode .background span:nth-child(17) {
 	background-image: url("../../svg/vscode.svg");
 	background-repeat: no-repeat;
@@ -245,24 +206,6 @@
 	transform-origin: -11vw -10vh;
 	box-shadow: 44vmin 0 6.1765324638286065vmin currentColor;
 }
-.dark-mode .background span:nth-child(19) {
-	color: var(--purple);
-	top: 40%;
-	left: 51%;
-	animation-duration: 128s;
-	animation-delay: -4s;
-	transform-origin: -11vw -10vh;
-	box-shadow: 44vmin 0 6.1765324638286065vmin currentColor;
-}
-.dark-mode .background span:nth-child(20) {
-	color: var(--purple);
-	top: 66%;
-	left: 100%;
-	animation-duration: 128s;
-	animation-delay: -3s;
-	transform-origin: -20vw -10vh;
-	box-shadow: 44vmin 0 6.1765324638286065vmin currentColor;
-}
 
 @media (min-width: 768px) {
 	.dark-mode .background span {
@@ -278,17 +221,6 @@
 		color: var(--pink-terminal);
 	}
 
-	.dark-mode .background span:nth-child(0) {
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-position: center;
-		top: 71%;
-		left: 42%;
-		animation-duration: 122s;
-		animation-delay: -86s;
-		transform-origin: 19vw -3vh;
-		box-shadow: -44vmin 0 6.097023496756592vmin currentColor;
-	}
 	.dark-mode .background span:nth-child(1) {
 		background-image: url("../../svg/react-dark.svg");
 		background-repeat: no-repeat;
@@ -312,15 +244,6 @@
 		animation-delay: -55s;
 		transform-origin: -17vw -3vh;
 		box-shadow: -44vmin 0 6.067807537859071vmin currentColor;
-	}
-	.dark-mode .background span:nth-child(3) {
-		color: var(--yellow-terminal);
-		top: 34%;
-		left: 16%;
-		animation-duration: 103s;
-		animation-delay: -177s;
-		transform-origin: -13vw 16vh;
-		box-shadow: 44vmin 0 5.990559767032023vmin currentColor;
 	}
 	.dark-mode .background span:nth-child(4) {
 		background-image: url("../../svg/react-dark.svg");
@@ -369,15 +292,6 @@
 		animation-delay: -83s;
 		transform-origin: -21vw 19vh;
 		box-shadow: 44vmin 0 5.504111027962081vmin currentColor;
-	}
-	.dark-mode .background span:nth-child(8) {
-		color: #340494;
-		top: 90%;
-		left: 21%;
-		animation-duration: 203s;
-		animation-delay: -61s;
-		transform-origin: -11vw -13vh;
-		box-shadow: 44vmin 0 6.441283887845018vmin currentColor;
 	}
 	.dark-mode .background span:nth-child(9) {
 		background-image: url("../../svg/nodejs-dark.svg");
@@ -463,15 +377,6 @@
 		transform-origin: -11vw -10vh;
 		box-shadow: 44vmin 0 6.1765324638286065vmin currentColor;
 	}
-	.dark-mode .background span:nth-child(16) {
-		color: var(--purple);
-		top: 105%;
-		left: 71%;
-		animation-duration: 128s;
-		animation-delay: -84s;
-		transform-origin: -11vw -10vh;
-		box-shadow: 44vmin 0 6.1765324638286065vmin currentColor;
-	}
 	.dark-mode .background span:nth-child(17) {
 		background-image: url("../../svg/file-type-html.svg");
 		background-repeat: no-repeat;
@@ -494,24 +399,6 @@
 		animation-duration: 128s;
 		animation-delay: -84s;
 		transform-origin: -11vw -10vh;
-		box-shadow: 44vmin 0 6.1765324638286065vmin currentColor;
-	}
-	.dark-mode .background span:nth-child(19) {
-		color: var(--purple);
-		top: -70%;
-		left: 51%;
-		animation-duration: 128s;
-		animation-delay: -4s;
-		transform-origin: -11vw -10vh;
-		box-shadow: 44vmin 0 6.1765324638286065vmin currentColor;
-	}
-	.dark-mode .background span:nth-child(20) {
-		color: var(--purple);
-		top: 56%;
-		left: 100%;
-		animation-duration: 128s;
-		animation-delay: -3s;
-		transform-origin: -20vw -10vh;
 		box-shadow: 44vmin 0 6.1765324638286065vmin currentColor;
 	}
 }
