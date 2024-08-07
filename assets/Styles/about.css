@@ -172,7 +172,7 @@
 	.card-title {
     text-align: center;
     color: var(--main-color);
-    font-size: 8.5rem;
+    font-size: 11rem;
     font-weight: 700;
     margin-top: -10rem;
   }
@@ -185,7 +185,7 @@
 	.card-photo{
 		transform: scale(0.3) translate(226px, 1055px);
 		margin-left: -134px;
-		margin-top: -340px;
+		margin-top: -410px;
 	}
     .about__img--src {
         width: 86rem;
