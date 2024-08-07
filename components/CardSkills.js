@@ -33,6 +33,12 @@ const cardsData = [
         class: "sharepoint"
     },
     {
+        imgSrc: "./assets/svg/Vmware-Icon.svg",
+        imgAlt: "VMware icon",
+        title: "VMware<br>✅",
+        class: "VMware"
+    },
+    {
         imgSrc: "./assets/svg/windowsS.svg",
         imgAlt: "windowsS icon",
         title: "Windows Server<br>✅",
