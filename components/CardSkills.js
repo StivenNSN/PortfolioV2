@@ -11,38 +11,44 @@ const cardsData = [
     {
         imgSrc: "./assets/svg/azure.svg",
         imgAlt: "azure icon",
-        title: "Azure<br>✅",
+        title: "AZURE<br>✅",
         class: "azure"
     },
     {
         imgSrc: "./assets/svg/backup.svg",
         imgAlt: "backup icon",
-        title: "Backups<br>✅",
+        title: "BACKUPS<br>✅",
         class: "backup"
     },
     {
         imgSrc: "./assets/svg/owa.svg",
         imgAlt: "owa icon",
-        title: "Office 365<br>✅",
+        title: "OFFICE 365<br>✅",
         class: "Office 365"
     },
     {
         imgSrc: "./assets/svg/sharepoint.svg",
         imgAlt: "sharepoint icon",
-        title: "sharepoint<br>✅",
+        title: "SHAREPOINT<br>✅",
         class: "sharepoint"
     },
     {
         imgSrc: "./assets/svg/Vmware-Icon.svg",
         imgAlt: "VMware icon",
-        title: "VMware<br>✅",
+        title: "VMWARE<br>✅",
         class: "VMware"
     },
     {
         imgSrc: "./assets/svg/windowsS.svg",
         imgAlt: "windowsS icon",
-        title: "Windows Server<br>✅",
+        title: "WINDOWS SERVER<br>✅",
         class: "windowsS"
+    },
+    {
+        imgSrc: "./assets/svg/angular.svg",
+        imgAlt: "angular icon",
+        title: "ANGULAR<br>✅",
+        class: "angular"
     },
     {
         imgSrc: "./assets/svg/file-type-html.svg",
@@ -59,25 +65,19 @@ const cardsData = [
     {
         imgSrc: "./assets/svg/javascript-fill.svg",
         imgAlt: "Javascript icon",
-        title: "Javascript<br>✅",
+        title: "JAVASCRIPT<br>✅",
         class: "javascript"
-    },
-    {
-        imgSrc: "./assets/svg/angular.svg",
-        imgAlt: "angular icon",
-        title: "Angular<br>✅",
-        class: "angular"
     },
     {
         imgSrc: "./assets/svg/npm-wordmark.svg",
         imgAlt: "Wordpress icon",
-        title: "npm<br>✅",
+        title: "NPM<br>✅",
         class: "npm"
     },
     {
         imgSrc: "./assets/svg/git.svg",
         imgAlt: "git icon",
-        title: "Git<br>✅",
+        title: "GIT<br>✅",
         class: "git"
     },
         

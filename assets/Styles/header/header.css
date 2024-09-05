@@ -30,6 +30,7 @@
 }
 
 .header__logo span {
+	font-size: 30px;
 	color: var(--glow-blue);
 }
 

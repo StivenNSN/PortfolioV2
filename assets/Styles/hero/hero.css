@@ -27,6 +27,7 @@
 }
 .hero__titulo span {
 	transition: all 0.9s;
+	font-size: 90px;
 }
 .hero__titulo span:hover {
 	color: var(--blue);
@@ -161,9 +162,6 @@
     margin-top: -3rem;
     text-align: center;
 }
-.mexico-bandera {
-	width: 35px;
-}
 .side__container {
 	transition: all 0.9s;
 	display: flex;
@@ -233,12 +231,14 @@
 		margin-top: -12rem;
 	}
 	.hero__titulo {
-		font-size: 10rem;
+		font-size: 8rem;
 		font-weight: 700;
 	}
 	.hero__subtitulo {
-		font-size: 2rem;
+		font-size: 2.5rem;
 	}
+
+
 	.side__img {
 		min-width: 25rem;
 		width: 85%;

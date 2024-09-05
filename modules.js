@@ -13,3 +13,9 @@ import { loadVideo } from "./controllers/latestYTVideos.js";
 
 CardsPortafolio();
 
+const languageToggle = document.getElementById('language-toggle');
+const languageOptions = document.getElementById('language-options');
+
+languageToggle.addEventListener('click', () => {
+  languageOptions.classList.toggle('hidden');
+});

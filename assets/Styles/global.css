@@ -1,6 +1,8 @@
 * {
   box-sizing: border-box;
   scroll-behavior: smooth;
+  color: white;
+  font-size: 13px;
 }
 
 html{
@@ -47,20 +49,44 @@ body {
   background:var(--seccond-color);
 }
 
-button{
+button {
   border: solid 1px var(--main-color);
   border-radius: 15px;
-  margin: 0;
+  margin: 10px;
+  background-color: #000000;
 }
 
 ul{
-  list-style: none;
+  list-style: disc ;
 }
-
-
 
 .titulo{
   font-size: 4rem;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
+  color: rgb(23, 96, 138);;
+  }
+
+  .a.language-dropdown{
+    color: #ffffff;
+    
+  }
+
+  .language-dropdown {
+    position: relative;
+    color: #9e2b2b;
+  }
+
+  .language-options {
+    display: none;
+    position: absolute;
+    top: 100%; /* Ajusta según tu diseño */
+    left: 0;
+    background-color: rgb(179, 37, 37);
+    color: #ffffff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    z-index: 0;
+}
+  .hidden {
+    display: none;
   }
