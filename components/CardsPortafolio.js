@@ -13,7 +13,7 @@ export default function CardsPortafolio(){
             titulo: "Mundo Libros - V2",
             skills: [],
             descripcion: "Mejora que estoy realizando a mi proyecto personal de libros - (está en construcción)",
-            demoURL: "https://librosv2html.netlify.app/fantasia",
+            demoURL: "https://librosv2html.netlify.app/",
             repoURL: "https://github.com/StivenNSN/LibrosHTMLV2"
         },
         {
