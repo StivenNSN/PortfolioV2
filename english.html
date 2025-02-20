@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+    <!-- canonical url -->
+    <link rel="canonical" href="https://bssanchezf31.netlify.app/">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Stiven Sanchez - Ingeniero de Sistemas - Portfolio">
+    <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#160036" />
+    <meta name="theme-color" media="(prefers-color-scheme: light)" content="#2e006e" />
+
+    <title>Stiven Sanchez</title>
+
+    <!-- HTML Meta Tags -->
+     <title>Stiven-Web</title>
+    <meta name="description" content="Ingeniero de Sistemas">
+
+     <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Fira+Code:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- css librerias/ cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.2.1/hamburgers.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+        integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+
+
+    <!-- CSS ESTYLES -->
+    <link rel="stylesheet" href="./assets/Styles/global.css">
+    <link rel="stylesheet" href="./assets/Styles/header/header.css">
+    <link rel="stylesheet" href="./assets/Styles/elements/toogleDark.css">
+    <link rel="stylesheet" href="./assets/Styles/elements/toTop.css">
+    <link rel="stylesheet" href="./assets/Styles/hero/hero.css">
+    <link rel="stylesheet" href="./assets/Styles/hero/social-icon.css">
+    <link rel="stylesheet" href="./assets/Styles/Dividers/divider.css">
+    <link rel="stylesheet" href="./assets/Styles/Dividers/divierBlack.css">
+    <link rel="stylesheet" href="./assets/Styles/Dividers/dividerSkillsTools.css">
+    <link rel="stylesheet" href="./assets/Styles/Dividers/divider-tools.css">
+    <link rel="stylesheet" href="./assets/Styles/elements/cajaTerminal.css">
+    <link rel="stylesheet" href="./assets/Styles/button.css">
+    <link rel="stylesheet" href="./assets/Styles/skills.css">
+    <link rel="stylesheet" href="./assets/Styles/tools.css">
+    <link rel="stylesheet" href="./assets/Styles/about.css">
+    <link rel="stylesheet" href="./assets/Styles/portfolio/portfolio.css">
+    <link rel="stylesheet" href="./assets/Styles/formulario.css">
+    <link rel="stylesheet" href="./assets/Styles/youtube-channel.css">
+    <link rel="stylesheet" href="./assets/Styles/footer.css">
+    <!-- dark mode -->
+    <link rel="stylesheet" href="./assets/Styles/dark-mode/darkmode.css">
+    <link rel="stylesheet" href="./assets/Styles/dark-mode/darkmode-bg.css">
+    <link rel="stylesheet" href="./assets/Styles/dark-mode/short-circuit.css">
+</head>
+
+<body>
+    <!--Cabezera-->
+    <header class="header" id="header">
+        <a class="header__link" href="/index.html">
+          <p class="header__logo logo__dark" id="logo"><span class="span__dark" id="span">Inicio</span></p>
+        </a>
+      
+<!--Idiomas-->
+        <div class="language-dropdown">
+          <button id="language-toggle">Idiomas</button>
+          <ul id="language-options" class="hidden">
+            <li><a href="index.html" data-lang="es">Español</a></li>
+            <li><a href="frances.html" data-lang="fr">Français</a></li>
+          </ul>
+        </div>
+      
+        <nav class="menu__nav panel__styles panel" id="panel">
+          <ul class="menu__ul">
+            <li class="menu__list"><a class="menu__link menu__hamburger-link" href="#skills">Habilidades</a></li>
+            <li class="menu__list"><a class="menu__link menu__hamburger-link" href="#aboutMe">Sobre Mí</a></li>
+            <li class="menu__list"><a class="menu__link menu__hamburger-link" href="#portafolio">Proyectos</a></li>
+          </ul>
+        </nav>
+      </header>
+    <!-- fin de Cabezera-->
+    
+    <div class="toogle-dark__container">
+        <i class="bi bi-lightning-charge toogle__rayo" data-toogle></i>
+    </div>
+
+    <!-- menu movil (hamburguesa) -->
+    <button class="panel__btn hamburger hamburger--emphatic" type="button" aria-label="menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner" id="hamburguesa"></span>
+        </span>
+    </button>
+
+    <!--Menu Flotante-->
+    <div class="menu__flotante">
+        <div class="icon__top-container">
+            <div class="to__top" data-menu="float">
+                <a class="to__top-link" href="#"> </a>
+                <i class="bi bi-arrow-up-circle"></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- MAIN -->
+    <main>
+
+        <!-- seccion hero  -->
+        <section class="hero" id="hero">
+            <div class="hero__contenedor">
+                <div class="hero__saludo">
+                    <h1 class="hero__titulo" id="titulo-saludo" data-section="hero" data-value="heroTitulo"><span class="flicker-in-1 span__dark">Stiven Sanchez</span> </h1>
+                    <h2 class="hero__subtitulo" id="subtitulo" data-section="hero" data-value="heroSubtitulo"> ≥ Ingeniero de Sistemas</h2>
+                </div>
+
+                        <!-- Imagenes del Menu  -->
+                <div class="side__container">
+                    <div class="side__profile" id="profile-pic">
+                        <img class="side__img img__ligth" src="./assets/img/Yo1.png"
+                            alt="Sofidev profile photo">
+                        <img class="side__img img__dark" src="./assets/img/Yo1.png"
+                            alt="Sofidev profile photo">
+                        <img class="side__img img__damage" src="./assets/img/Yo-Pixar.png"
+                            alt="Sofidev profile photo">
+                    </div>
+
+<!-- Iconos del Menu  -->
+                         <!-- GitHub -->
+                        <div class="social">
+                            <a class="social__link github icono__dark" href="https://github.com/StivenNSN/" target="_blank"
+                                rel="nofollow noreferrer noopener">
+                                <img class="social__icon" title="Da click para ingresar a GIT" src="./assets/svg/github-light.svg" alt="GitHub icon">
+                            </a>
+                        <!-- Instagram -->
+                            <a class="social__link icon-insta icono__dark" href="https://www.instagram.com/stiven_sanchez_ns/" target="_blank"
+                                rel="nofollow noreferrer noopener">
+                                <img class="social__icon" title="Da click para ingresar a Instagram" src="./assets/svg/icon-insta.svg" alt="icon-insta icon">
+                            </a>
+                        <!-- Linkedin -->
+                            <a class="social__link linkedin icono__dark" href="https://www.linkedin.com/in/stivensanchez/"
+                                target="_blank" rel="nofollow noreferrer noopener">
+                                <img class="social__icon" title="Da click para ingresar a Linkedin"  src="./assets/svg/linkedin.svg" alt="LinkedIn icon">
+                            </a>
+                        <!-- Facebook -->
+                            <a class="social__link facebook icono__dark" href="https://www.facebook.com/stiven.sanchez.75" target="_blank"
+                                rel="nofollow noreferrer noopener">
+                                <img class="social__icon" title="Da click para ingresar a Facebook" src="./assets/svg/facebook.svg" alt="facebook icon">
+                            </a>
+                        <!-- Youtube 
+                            <a class="social__link youtube icono__dark" href="https://www.youtube.com/@StivenNSN" target="_blank"
+                                rel="nofollow noreferrer noopener">
+                                <img class="social__icon" title="Da click para ingresar a Youtube" src="./assets/svg/youtube-solid.svg" alt="Youtube icon">
+                            </a> -->
+                        </div>
+                </div>
+            </div>
+        </section>
+<!-- Fin seccion hero  -->
+
+        <!-- Divider -->
+        <div class="wrapper">
+            <div class="custom-shape-divider-bottom-1685513857">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                    preserveAspectRatio="none">
+                    <path
+                        d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
+                        id="divider1" class="shape-fill"></path>
+                </svg>
+            </div>
+        </div>
+ <!-- fin de  Divider -->
+
+<!-- Skills - Perfil Profesional -->
+        <section class="skills" id="skills">
+            <h2 class="titulo titulo__dark">Habilidades</h2>
+
+            <div class="skills__container">
+                <div class=" caja__cristal caja__dark ">
+                    <div class="terminal_toolbar">
+                        <div class="butt">
+                            <button class="btn btn__red btn-color"></button>
+                            <button class="btn btn__yellow"></button>
+                            <button class="btn btn__green"></button>
+                        </div>
+                        <p class="user">Perfil Profesional: </p>
+                    </div>
+
+<!-- Info de Sobre Mí -->
+                    <div class="terminal__content ">
+                        <p class="terminal__content"> <span class="terminal__content"> ≥ Profesional en Ingeniería de Sistemas con más de 7 años de experiencia</span>en la gestión y administración de sistemas y tecnologías de la información.</p>
+                        <p class="terminal__content"> ≥ Conocimientos que abarcan un amplio espectro de tecnologías, incluyendo: 
+                            <br>* Sistemas Operativos -<span class="terminal__content">(Windows Server - Linux)</span> 
+                            <br>* Virtualización -<span class="terminal__content">(VMware)</span> 
+                            <br>* Cloud Computing -<span class="terminal__content">(AWS, Azure)</span> 
+                            <br>* Herramientas de colaboración -<span class="terminal__content">(Office 365, SharePoint)</span>  
+                            <br>* Conocimientos en Desarrollo Web -<span class="terminal__content">(HTML5, CSS, JS, GIT).</span>
+                        </p>
+                        <p class="terminal__content"> ≥ Con dedicación continua a la mejora y aprendizaje constante en este campo lo cual permite mantenerme al tanto de los avances y tendencias emergentes.</p>
+                        
+     <!-- Descargar CV -->
+                        <div class="skills__descargar">
+                            <a class="link__boton boton titulo__dark  span" href="./assets/documents/CV-Stiven_Sanchez-S.pdf" target="_blank"> Descargar CV <img class="skills__descargar__icono icono__boton" src="./assets/svg/generate-pdf.svg" alt="download button">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+    <!-- SECCION SKILLS -->
+                <div class="skills__cards-container">
+                    <div class="skills__cajas">
+                        <!-- Conteido de cards -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="wraper__skills">
+            <div class="custom-shape-divider-top-1697134839">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                    preserveAspectRatio="none">
+                    <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+                </svg>
+            </div>
+        </div>
+<!-- Fin de -> Skills - Perfil Profesional -->
+
+        <!-- Herramientas -->
+        <section class="tools">
+            <h2 class="tools__titulo titulo__dark">Herramientas de Trabajo</h2>
+            <div class="tools__caja__slider">
+                <div class="slider">
+                    <div class="tools__cajas">
+
+                        <div class="tools__grupo">
+                            <div class="tools__caja caja__dark">
+                                <img class="tools__icono tool__dark" src="./assets/svg/angular.svg" alt="">
+                            </div>
+                            <span class="tools__descripcion titulo__dark">Angular</span>
+                        </div>
+
+                        <div class="tools__grupo">
+                            <div class="tools__caja caja__dark">
+                                <img class="tools__icono terminal" src="./assets/svg/aws.svg" alt="">
+                            </div>
+                            <span class="tools__descripcion titulo__dark">AWS</span>
+                        </div>
+                      
+                        <div class="tools__grupo">
+                            <div class="tools__caja caja__dark">
+                                <img class="tools__icono tool__dark " src="./assets/svg/azure.svg" alt="">
+                            </div>
+                            <span class="tools__descripcion titulo__dark">Azure</span>
+                        </div>
+
+                        <div class="tools__grupo">
+                            <div class="tools__caja caja__dark">
+                                <img class="tools__icono tool__dark" src="./assets/svg/css-color.svg" alt="">
+                            </div>
+                            <span class="tools__descripcion titulo__dark">CSS</span>
+                        </div>
+
+                        <div class="tools__grupo">
+                            <div class="tools__caja caja__dark">
+                                <img class="tools__icono tool__dark" src="./assets/svg/git.svg" alt="">
+                            </div>
+                            <span class="tools__descripcion titulo__dark">Git</span>
+                        </div>
+
+                        <div class="tools__grupo">
+                            <div class="tools__caja caja__dark">
+                                <img class="tools__icono tool__dark" src="./assets/svg/file-type-html.svg" alt="">
+                            </div>
+                            <span class="tools__descripcion titulo__dark">HTML5</span>
+                        </div>
+
+                        <div class="tools__grupo">
+                            <div class="tools__caja caja__dark">
+                                <img class="tools__icono tool__dark" src="./assets/svg/javascript-color.svg" alt="">
+                            </div>
+                            <span class="tools__descripcion titulo__dark">JavaScript</span>
+                        </div>
+
+                        <div class="tools__grupo">
+                            <div class="tools__caja caja__dark">
+                                <img class="tools__icono tool__dark" src="./assets/svg/npm-wordmark.svg" alt="">
+                            </div>
+                            <span class="tools__descripcion titulo__dark">NPM</span>
+                        </div>
+
+                        <div class="tools__grupo">
+                            <div class="tools__caja caja__dark">
+                                <img class="tools__icono tool__dark" src="./assets/svg/owa.svg" alt="">
+                            </div>
+                            <span class="tools__descripcion titulo__dark">Office 365</span>
+                        </div>
+
+                        <div class="tools__grupo">
+                            <div class="tools__caja caja__dark">
+                                <img class="tools__icono tool__dark" src="./assets/svg/sharepoint.svg" alt="">
+                            </div>
+                            <span class="tools__descripcion titulo__dark">SharePoint</span>
+                        </div>
+
+                        <div class="tools__grupo">
+                            <div class="tools__caja caja__dark">
+                                <img class="tools__icono tool__dark" src="./assets/svg/Vmware-Icon.svg" alt="">
+                            </div>
+                            <span class="tools__descripcion titulo__dark">VMware</span>
+                        </div>
+
+                        <div class="tools__grupo">
+                            <div class="tools__caja caja__dark">
+                                <img class="tools__icono tool__dark" src="./assets/svg/windowsS.svg" alt="">
+                            </div>
+                            <span class="tools__descripcion titulo__dark">Windows Server</span>
+                        </div>
+
+                        <div class="tools__grupo">
+                            <div class="tools__caja caja__dark">
+                                <img class="tools__icono tool__dark" src="./assets/svg/terminal.svg" alt="">
+                            </div>
+                            <span class="tools__descripcion titulo__dark">Terminal</span>
+                        </div>
+
+                        <div class="tools__grupo">
+                            <div class="tools__caja caja__dark">
+                                <img class="tools__icono tool__dark" src="./assets/svg/ubuntu.svg" alt="">
+                            </div>
+                            <span class="tools__descripcion titulo__dark">Ubuntu</span>
+                        </div>
+
+                        <div class="tools__grupo">
+                            <div class="tools__caja caja__dark">
+                                <img class="tools__icono tool__dark" src="./assets/svg/vscode.svg" alt="">
+                            </div>
+                            <span class="tools__descripcion titulo__dark">Visual Studio Code</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<!-- Fin Seccion Herramientas -->
+
+        <div class="wraper__tools">
+            <div class="custom-shape-divider-top-1699780157">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+                </svg>
+            </div>
+        </div>
+
+        <!-- Acerca de Mi -->
+        <section class="about" id="aboutMe">
+            <h2 class="titulo titulo__dark" id="aboutDeTitulo"> Información Personal </h2>
+            
+            <div class="about__container">
+                <div class="card__about ">
+                    <div class="card-photo">
+                        <img class="about__img--src" src="./assets/img/Yo3.png">
+                    </div>
+                    <div class="card-title">
+                        <span>Ingeniero de Sistemas</span>
+                    </div>
+
+                    <div class="card-socials">
+                        <a class=" card-socials-btn icon" href="https://www.facebook.com/stiven.sanchez.75" target="_blank" rel="nofollow noreferrer noopener">
+                            <img class="about__icons" title="Mi perfil de Facebook" src="./assets/svg/Facebook-BN.svg" alt=""
+                                data-name="Layer 21" id="Layer_21">
+                        </a>
+
+                        <a class=" card-socials-btn icon" href="https://www.instagram.com/stiven_sanchez_ns/" target="_blank" rel="nofollow noreferrer noopener">
+                            <img class="about__icons" title="Mi perfil de Instagram" src="./assets/svg/Insta-BN.svg" alt=""
+                                data-name="Layer 21" id="Layer_21">
+                        </a>
+
+                        <a class=" card-socials-btn icon" href="https://twitter.com/StivenNSN31/" target="_blank" rel="nofollow noreferrer noopener">
+                            <img class="about__icons" title="Mi perfil de Twitter" src="./assets/svg/twitter3.svg" alt=""
+                                data-name="Layer 21" id="Layer_21">
+                        </a>
+                    </div>
+                </div>
+
+<!-- Caja 2 - Acerca de Mi -->
+                <div class="about__caja caja__cristal caja__dark" ">
+                    <div class=" terminal_toolbar">
+                    <div class="butt">
+                        <button class="btn btn__red btn-color"></button>
+                        <button class="btn btn__yellow"></button>
+                        <button class="btn btn__green"></button>
+                    </div>
+                    <p class="user">Sobre Mí: ~</p>
+                </div>
+                <div class="terminal__content" id="textos">
+                    <p class="terminal__content contenido">
+                        ≥ Vivo en la ciudad de Bogotá-Colombia, tengo 29 años, bilingüe (Español-Francés), soy apasionado por la tecnología, la lectura de fantasía, los planes tranquilos en casa y los videojuegos.</p>
+                    <h3 class="terminal__content contenido"> 
+                        ≥ ¿Mis hobbies? <span class="about__span span__dark"></span></h3>
+                    <p class="terminal__content contenido"> 
+                       <span class="terminal__content"> ≥ Aprender: </span> Soy un autodidacta, me gusta investigar sobre temas que me apasionan, especialmente la tecnología, descubrimientos, y cosas cientificas.<br>
+                        <span class="terminal__content"> ≥ Dibujar: </span> El dibujo es una de mis pasiones, me gusta explorar diferentes técnicas y dibujar diferentes estilos como el Anime - Fantasia y Semirealismo. <br>
+                        <span class="terminal__content"> ≥ Leer: </span> Soy un ávido lector, la lectura me gusta porque me hacer imaginar mundos enteros, diferentes realidades, infinitas cosas que hacen que el tiempo sea relativo. Entre mis sagas de lectura favoritas estan<span class="terminal__content">"La Biblia de los Caidos"</span>, <span class="terminal__content">"Trono de Cristal"</span>, <span class="terminal__content">"Harry Potter"</span> y <span class="terminal__content">"Juego de Tronos"</span>.
+                    </p>
+                    <h3 class="terminal__content contenido"> 
+                        ≥ ¿Qué hago actualmente? <span class="about__span span__dark"></span></h3>
+                    <p class="terminal__content contenido"> 
+                        ≥ Trabajo como Ingeniero de Sistemas, en mi tiempo libre realizo cursos a nivel tecnológico para mejorar mis conocimientos, mis ultimos cursos fueron: <br>
+                        <span class="terminal__content"> ≥</span>Google Inteligencia Artificial y productividad <br>
+                        <span class="terminal__content"> ≥</span>Copilot - Fundamentos de IA de Microsoft <br>
+                        <span class="terminal__content"> ≥</span>Introducción al Hacking Etico
+                    </p>
+                </div>
+
+<!--Enviar Correo Gmail-->
+                <div class="about__contactar">
+                    <a class="link__boton boton titulo__dark  span" href="mailto: bssanchezf31@gmail.com" target="_blank"
+                        rel="nofollow noreferrer noopener">Enviame un Correo
+                        <img class="contactar__boton__icono icono__boton " src="./assets/svg/mail (1).svg"
+                            alt="mail icon">
+                    </a>
+                </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Portafolio -->
+        <section class="portafolio " id="portafolio">
+            <h2 class="titulo titulo__dark">Proyectos</h2>
+            <div class="portafolio__contenedor" data-card>
+                <!-- Aquí se insertarán las tarjetas generadas dinámicamente -->
+            </div>
+        </section>
+
+<!-- Iconos Flotantes -->
+        <div class="background">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <footer id="footer" class="footer">
+            <div class="container">
+            <div class="copyright">
+                &copy; <strong><span>Stiven Sanchez </span></strong>. 
+            </div>
+            <div class="credits"> <a>Todos Los Derechos Reservados</a>
+            </div>
+            </div>
+        </footer>
+        <!-- End Footer -->
+
+    </main>
+
+</body>
+<script src="./modules.js" defer type="module"></script>
+
+</html>
