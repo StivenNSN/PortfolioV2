@@ -2,33 +2,33 @@ export default function CardsPortafolio(){
     const portafolioData = [
         {
             imgSrc: "../assets/img/PortfolioImg/portfolio-5.jpg",
-            titulo: "Portfolio - V2",
+            titulo: "New Portfolio",
             skills: [],
-            descripcion: "Portfolio Personal - V2.",
+            descripcion: "Portfolio Personal",
             demoURL: "https://bssanchezf31.netlify.app",
             repoURL: "https://github.com/StivenNSN/PortfolioV2"
         },
         {
             imgSrc: "../assets/img/PortfolioImg/portfolio-4.jpg",
-            titulo: "Mundo Libros - V2",
+            titulo: "Mundo Libros - World Books",
             skills: [],
-            descripcion: "Mejora que estoy realizando a mi proyecto personal de libros - (está en construcción)",
+            descripcion: "Mis libros leidos favoritos",
             demoURL: "https://librosv2html.netlify.app/",
             repoURL: "https://github.com/StivenNSN/LibrosHTMLV2"
         },
         {
             imgSrc: "../assets/img/PortfolioImg/portfolio-1.jpg",
-            titulo: "Mundo Libros V1",
+            titulo: "Mis Lecturas - My Readings",
             skills: [],
-            descripcion: "Proyecto personal para subir los libros en formato PDF de diferentes géneros",
+            descripcion: "Proyecto personal de mis lecturas",
             demoURL: "https://sslibros.netlify.app/",
             repoURL: "https://github.com/StivenNSN/MundoLibros"
         },        
         {
             imgSrc: "../assets/img/PortfolioImg/portfolio-2.jpg",
-            titulo: "Mi Primer Portfolio Web",
+            titulo: "Portfolio anterior",
             skills: [],
-            descripcion: "Mi primer Portfolio",
+            descripcion: "Portfolio",
             demoURL: "https://bssanchezf.netlify.app/",
             repoURL: "https://github.com/StivenNSN/bssanchezf"
         },
