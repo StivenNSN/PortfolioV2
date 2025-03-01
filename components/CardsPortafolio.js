@@ -1,6 +1,14 @@
 export default function CardsPortafolio(){
     const portafolioData = [
         {
+            imgSrc: "../assets/img/PortfolioImg/portfolio-6.jpg",
+            titulo: "Mis Dibujos - My Drawings",
+            skills: [],
+            descripcion: "Proyecto Personal de mis dibujos",
+            demoURL: "https://dibujostiven.netlify.app/",
+            repoURL: "https://github.com/StivenNSN/DibujosSS"
+        },
+        {
             imgSrc: "../assets/img/PortfolioImg/portfolio-5.jpg",
             titulo: "New Portfolio",
             skills: [],
