@@ -26,6 +26,12 @@ const cardsData = [
         title: "OFFICE 365<br>✅",
         class: "Office 365"
     },
+        {
+        imgSrc: "./assets/svg/qualys.svg",
+        imgAlt: "Qualys icon",
+        title: "Qualys<br>✅",
+        class: "Qualys"
+    },
     {
         imgSrc: "./assets/svg/sharepoint.svg",
         imgAlt: "sharepoint icon",
@@ -43,42 +49,6 @@ const cardsData = [
         imgAlt: "windowsS icon",
         title: "WINDOWS SERVER<br>✅",
         class: "windowsS"
-    },
-    {
-        imgSrc: "./assets/svg/angular.svg",
-        imgAlt: "angular icon",
-        title: "ANGULAR<br>✅",
-        class: "angular"
-    },
-    {
-        imgSrc: "./assets/svg/file-type-html.svg",
-        imgAlt: "HTML icon",
-        title: "HTML<br>✅",
-        class: "html"
-    },
-    {
-        imgSrc: "./assets/svg/css-color.svg",
-        imgAlt: "CSS icon",
-        title: "CSS<br>✅",
-        class: "css"
-    },
-    {
-        imgSrc: "./assets/svg/javascript-fill.svg",
-        imgAlt: "Javascript icon",
-        title: "JAVASCRIPT<br>✅",
-        class: "javascript"
-    },
-    {
-        imgSrc: "./assets/svg/npm-wordmark.svg",
-        imgAlt: "Wordpress icon",
-        title: "NPM<br>✅",
-        class: "npm"
-    },
-    {
-        imgSrc: "./assets/svg/git.svg",
-        imgAlt: "git icon",
-        title: "GIT<br>✅",
-        class: "git"
     },
         
 ];

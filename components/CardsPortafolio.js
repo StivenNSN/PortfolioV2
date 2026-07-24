@@ -1,28 +1,12 @@
 export default function CardsPortafolio(){
     const portafolioData = [
         {
-            imgSrc: "../assets/img/PortfolioImg/portfolio-6.jpg",
-            titulo: "Mis Dibujos - My Drawings",
-            skills: [],
-            descripcion: "Proyecto Personal de mis dibujos",
-            demoURL: "https://dibujostiven.netlify.app/",
-            repoURL: "https://github.com/StivenNSN/DibujosSS"
-        },
-        {
             imgSrc: "../assets/img/PortfolioImg/portfolio-5.jpg",
             titulo: "New Portfolio",
             skills: [],
             descripcion: "Portfolio Personal",
             demoURL: "https://bssanchezf31.netlify.app",
             repoURL: "https://github.com/StivenNSN/PortfolioV2"
-        },
-        {
-            imgSrc: "../assets/img/PortfolioImg/portfolio-4.jpg",
-            titulo: "Mundo Libros - World Books",
-            skills: [],
-            descripcion: "Mis libros leidos favoritos",
-            demoURL: "https://librosv2html.netlify.app/",
-            repoURL: "https://github.com/StivenNSN/LibrosHTMLV2"
         },
         {
             imgSrc: "../assets/img/PortfolioImg/portfolio-1.jpg",
@@ -32,22 +16,6 @@ export default function CardsPortafolio(){
             demoURL: "https://sslibros.netlify.app/",
             repoURL: "https://github.com/StivenNSN/MundoLibros"
         },        
-        {
-            imgSrc: "../assets/img/PortfolioImg/portfolio-2.jpg",
-            titulo: "Portfolio anterior",
-            skills: [],
-            descripcion: "Portfolio",
-            demoURL: "https://bssanchezf.netlify.app/",
-            repoURL: "https://github.com/StivenNSN/bssanchezf"
-        },
-        {
-            imgSrc: "../assets/img/PortfolioImg/portfolio-3.jpg",
-            titulo: "Calculadora App",
-            skills: [],
-            descripcion: "Proyecto de Practica",
-            demoURL: "https://calculadorappss.netlify.app",
-            repoURL: "https://github.com/StivenNSN/CalculadoraApp"
-        },
 
     ];
     
